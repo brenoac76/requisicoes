@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import RequisitionList from './components/RequisitionList';
 import RequisitionForm from './components/RequisitionForm';
 import LoginScreen from './components/LoginScreen';
-import UserManagement from './components/UserManagement';
+import UserManagement from './components/UserManagementComponent';
 import NotificationToast from './components/NotificationToast';
 import { Requisition, User } from './types';
 import { getRequisitions, deleteFromGoogleSheets } from './services/googleSheets';
